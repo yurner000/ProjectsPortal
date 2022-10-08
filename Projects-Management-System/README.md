@@ -16,30 +16,32 @@ This repository describes ProjectsPortal Api
 
 6.As admin I want to have access to Project portal logs
 
-##Term
+## Term
 
 -BudgetSourse - source of funding for project implementation;
+
 -BusinessUnit - identifier of the business implementing the project;
+
 -User - project manager or Projects Portal administrator
 
-##Models
+## Models
 
-###BudgetSource
+### BudgetSource
 
 -BudgetSourceID 
 -BudgetSourceName 
 
-###BusinessUnit
+### BusinessUnit
 
 -BusinessUnitID 
 -BusinessUnitName 
 
-###District
+### District
 
 -DistrictID 
 -DistrictName 
 
-###LogOperations
+### LogOperations
 
 -LogID 
 -LogSituation 
@@ -49,7 +51,7 @@ This repository describes ProjectsPortal Api
 -UserIp 
 -Statement 
 
-###Project
+### Project
 
 -ProjectId 
 -UserID
@@ -61,7 +63,7 @@ This repository describes ProjectsPortal Api
 -BusinessUnit 
 -User 
 
-###User
+### User
 
 -UserID 
 -UserFirstname 
